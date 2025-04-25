@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactus-style.css">
+    <title>HILLSIDE - Contact Us</title>
+</head>
+<body>
+
+    <div class="largescreen">
+        <input type="checkbox" id="toggle" hidden>
+        <label class="hamburger" for="toggle"><!-- menu -->
+            <div class="top"></div>
+            <div class="meat"></div>
+            <div class="bottom"></div>
+        </label>
+        <div class="nav">
+            <div class="nav-wrapper">
+                <nav>
+                    <h1 style="font-size: 1em; color: white;">SERVICE</h1>
+                    <a href="landscape.html#body2">Landscape</a>
+                    <a href="landscape.html#body3">Hardscape</a>
+                    <a href="landscape.html#body4">Xeriscape</a>
+                    <a href="landscape.html#body5">Snow Removal</a>
+                    <a href="landscape.html#body5">Custom Stone and Water Features</a>
+                    <a id="overview" href="contactus.html" style="text-decoration: underline;">CONTACT US</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    
+        <div class="top-menu">
+            
+            <a href="home.html"><img id="logo" src="assets/logo4.png"></a>
+            <ul class="tab">
+                <!-- <li class="dropdown">
+                    <button class="dropbtn">SERVICE</button>
+                    <div class="dropdown-content">
+                        <a href="landscape.html#body2">Landscape</a>
+                        <a href="landscape.html#body3">Hardscape</a>
+                        <a href="landscape.html#body4">Xeriscape</a>
+                        <a href="landscape.html#body5">Snow Removal</a>
+                        <a href="landscape.html#body5">Custom Stone and Water Features</a>
+                    </div>
+                </li> -->
+
+                <!-- <li class="dropdown">
+                    <button class="dropbtn">
+                        <a id="overview" href="#">GALLERY</a>
+                    </button>
+                </li> -->
+                <li class="dropdown">
+                    <button class="dropbtn">
+                        <a id="overview" href="landscape.html">SERVICE</a>
+                    </button>
+                </li>
+                <li class="dropdown">
+                    <button class="dropbtn">
+                        <a id="overview" href="#">CONTACT US</a>
+                    </button>
+                </li>
+            </ul>
+        </div>
+
+        <div class="main"> 
+            <div class="left-container">
+                <h1>Contact Us</h1>
+                <p>Schedule your free consultation and personalized quote today. 
+                    Our experienced team is ready to discuss your vision and provide expert advice tailored to 
+                    your specific requirements.</p>
+                <p>Call us at <a id="tel" href="tel:720-272-4611" ><b>(720)-272-4611</b></a></p>
+                <p>Email us at <a id="email" href="mailto:contact@hillsidelandscapingco.com"><b>contact@hillsidelandscapingco.com</b></a></p>
+                <h2 style="padding-top: 6vh; color: white;">Not ready to book a call? </h2>
+                <p>Fill out the form, we will get back to you within 24 hours!</p>
+            </div>
+
+            <div class="right-container">
+                <form target="_blank" action="https://formsubmit.co/contact@hillsidelandscapingco.com" method="POST">
+
+                    <div class="form-row">
+                        <div class="col">
+                            <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                        </div>
+                        <div class="col">
+                            <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <textarea placeholder="Your Message" class="form-control2" name="message" rows="10"
+                            required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+                </form>
+            </div>
+
+        </div>
+
+    
+</body>
+</html>
