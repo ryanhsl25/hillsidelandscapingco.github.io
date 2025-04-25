@@ -170,20 +170,24 @@ p {
     }
 
     #logo {
-        position: relative;
+        /* position: relative; */
         /* top: 500%;  */
         overflow: hidden;
         /* left: 35%;  */
-        transform: translate(-19%, 50%); 
+        transform: translate(-24%, 50%); 
         width: 50vw;
     }
 
+    /* .subtitLe3 {
+        font-size: 0.1em;
+    } */
+
     .subtitle {
-        position: absolute; 
-        top: 250%; 
+        /* position: absolute;  */
+        top: 130%; 
         left: 50%; 
         transform: translate(-50%, -200%); 
-        font-size: 2em;
+        font-size: 1em;
     }
 
 
