@@ -174,7 +174,7 @@ p {
         /* top: 500%;  */
         overflow: hidden;
         /* left: 35%;  */
-        transform: translate(-24%, 50%); 
+        transform: translate(-18%, 50%); 
         width: 50vw;
     }
 
@@ -184,7 +184,7 @@ p {
 
     .subtitle {
         /* position: absolute;  */
-        top: 130%; 
+        bottom: 30%;  
         left: 50%; 
         transform: translate(-50%, -200%); 
         font-size: 1em;
